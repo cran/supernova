@@ -1,8 +1,8 @@
 Package: supernova
 Type: Package
 Title: Judd & McClelland Formatting for ANOVA Output
-Version: 1.0
-Date: 2018-02-09
+Version: 1.1
+Date: 2018-04-06
 Authors@R: c(person("Jim", "Stigler", email = "jstigler@gmail.com", role = c("cre", "aut")),
              person("Jeff", "Chrabaszcz", role = "aut"))
 LazyData: yes
@@ -14,9 +14,9 @@ RoxygenNote: 6.0.1
 URL: https://github.com/UCLATALL/supernova
 BugReports: https://github.com/UCLATALL/supernova/issues
 NeedsCompilation: no
-Packaged: 2018-02-22 12:03:43 UTC; jchrszcz
+Packaged: 2018-06-16 09:57:15 UTC; jchrszcz
 Author: Jim Stigler [cre, aut],
   Jeff Chrabaszcz [aut]
 Maintainer: Jim Stigler <jstigler@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-02-23 09:21:53 UTC
+Date/Publication: 2018-06-16 19:28:41 UTC
