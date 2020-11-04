@@ -1,3 +1,35 @@
+# supernova 2.2.3
+
+* Remove dependency on `dplyr` because it changes too quickly and has too many other dependencies
+* Mild refactoring to improve code readability
+
+
+# supernova 2.2.2
+
+* Patch to keep up with changes to `lme4`
+
+
+# supernova 2.2.1
+
+* Add support for mixed models (as in nested and crossed). See the README for more information.
+
+
+# supernova 2.2.0
+
+Extend supernova to handle within (crossed) designs
+
+* Add `lme4` and `dplyr` to Imports
+* Update R dependency to 3.5.0 (for serialized data; Rds)
+* Convert `supernova` to S3 class with methods for `lm` and `lmerMod`
+* Add tests for `supernova()` for crossed (but not nested) `lmer()` fits
+* Extend `print.supernova` to handle new models
+
+Minor changes:
+
+* Refactor utility functions into utils.R
+* Add internal documentation for utility functions
+
+
 # supernova 2.1.1
 
 * Added a `NEWS.md` file to track changes to the package.
