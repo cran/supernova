@@ -1,3 +1,10 @@
+# supernova 2.3.0
+
+* Dependency on `lme4` is moved to Suggests. Models implementing `lmerMod` are handled via `supernova.lmerMod` and `variables.lmerMod` but use of the `lme4` package is limited to tests.
+* More robust and readable implementation of `variables()` using the new formula utility functions added. See `?formula_building`, `?formula_expansion`, and `?formula_extraction`.
+* Add a new function `equation()` to extract the fitted equation from a linear model (`lm()`) (thanks for the suggestion from [@ave-63](https://github.com/ave-63)!)
+
+
 # supernova 2.2.3
 
 * Remove dependency on `dplyr` because it changes too quickly and has too many other dependencies
