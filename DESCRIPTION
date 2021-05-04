@@ -1,14 +1,27 @@
 Package: supernova
 Type: Package
 Title: Judd, McClelland, & Ryan Formatting for ANOVA Output
-Version: 2.3.0
-Date: 2021-01-12
+Version: 2.4.0
+Date: 2021-05-03
 Authors@R: c(
-    person("Adam", "Blake", email = "theadamattack@gmail.com", role = "aut", comment = c(ORCID = "0000-0001-7881-8652")),
-    person("Jeff", "Chrabaszcz", role = "aut"),
-    person("Ji", "Son", email = "json2@calstatela.edu", role = "aut", comment = c(ORCID = "0000-0002-4258-4791")),
-    person("Jim", "Stigler", email = "jstigler@gmail.com", role = c("cre", "aut"), comment = c(ORCID = "0000-0001-6107-7827"))
-  )
+    person(
+      "Adam", "Blake", 
+      email = "theadamattack@gmail.com", 
+      role = "aut", 
+      comment = c(ORCID = "0000-0001-7881-8652")),
+    person(
+      "Jeff", "Chrabaszcz",
+      role = "aut"),
+    person(
+      "Ji", "Son", 
+      email = "json2@calstatela.edu",
+      role = "aut",
+      comment = c(ORCID = "0000-0002-4258-4791")),
+    person(
+      "Jim", "Stigler",
+      email = "jstigler@gmail.com",
+      role = c("cre", "aut"),
+      comment = c(ORCID = "0000-0001-6107-7827")))
 Encoding: UTF-8
 LazyData: yes
 Description: Produces ANOVA tables in the format used by Judd, McClelland, and Ryan 
@@ -17,17 +30,19 @@ Description: Produces ANOVA tables in the format used by Judd, McClelland, and R
     and R.
 License: GPL-3
 Depends: R (>= 3.5.0)
-Suggests: testthat (>= 2.1.0), covr, tibble, tidyr, car, lme4
-Imports: rlang, magrittr, vctrs, stringr, purrr
+Suggests: car, covr, lintr, lme4, testthat (>= 2.1.0), vdiffr, tidyr
+Imports: ggplot2, tibble, cli, magrittr, purrr, rlang, stringr, vctrs,
+        pillar, methods
 RoxygenNote: 7.1.1
 URL: https://github.com/UCLATALL/supernova
 BugReports: https://github.com/UCLATALL/supernova/issues
+Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2021-01-12 21:34:04 UTC; Adam
+Packaged: 2021-05-04 05:09:54 UTC; Adam
 Author: Adam Blake [aut] (<https://orcid.org/0000-0001-7881-8652>),
   Jeff Chrabaszcz [aut],
   Ji Son [aut] (<https://orcid.org/0000-0002-4258-4791>),
   Jim Stigler [cre, aut] (<https://orcid.org/0000-0001-6107-7827>)
 Maintainer: Jim Stigler <jstigler@gmail.com>
 Repository: CRAN
-Date/Publication: 2021-01-12 22:10:02 UTC
+Date/Publication: 2021-05-04 08:00:02 UTC
