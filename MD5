@@ -1,6 +1,6 @@
-e31a5cb0a98c1a3ad0731493aad1fba3 *DESCRIPTION
+100196b3b5d6e0dff9e9c69d3a09b82e *DESCRIPTION
 dcab337cc0f3cc829cb71840e555a85f *NAMESPACE
-c4f9aa9f1b36297407d67a636b6a2425 *NEWS.md
+257f68daf9bcb12e38b9f62123eb9015 *NEWS.md
 1913d07e24b52519d5a6119e9a84dcdf *R/data.R
 c5d24eabd38e77b6358cd33dee8cfeb2 *R/equation.R
 4097fe2b002a94b199bb76c164473cfd *R/generate_models.R
@@ -84,6 +84,12 @@ aa512235183fa4c92bda069f37fcad0f *tests/figs/pairwise/bonferroni-one-variable.sv
 55a4280846085cacd73a2ed41f2ca2e8 *tests/testthat/_snaps/listwise_delete.md
 1e8c29d074f74d5e9b08e4026d9266ec *tests/testthat/_snaps/number.md
 b80a82329981220bb18cc87a21262f36 *tests/testthat/_snaps/pairwise.md
+a50e71b311263a3868b2e18b6b1dd077 *tests/testthat/_snaps/pairwise/bonferroni-one-variable.svg
+cfb43b4f2a6652149bb1984e826c7fb4 *tests/testthat/_snaps/pairwise/multiple-plots-raceethnic.svg
+cc42b61a74126944eb4f6cbdb554d648 *tests/testthat/_snaps/pairwise/multiple-plots-sex-raceethnic.svg
+7abf87ae82d6316838951e7a4696449f *tests/testthat/_snaps/pairwise/multiple-plots-sex.svg
+e08fde7e4115d3599c47371162a54720 *tests/testthat/_snaps/pairwise/t-test-one-variable.svg
+920bc30ec3aa79325c9d08ec10cbe5f7 *tests/testthat/_snaps/pairwise/tukey-one-variable.svg
 db5c5b94fb171d51c2dd9e1fe85c88b2 *tests/testthat/_snaps/supernova.md
 cc04186e57abe1539da3579db74385c4 *tests/testthat/cache/model_cache_type_1.Rds
 6a0985c04d4d8c541d445533cdd50645 *tests/testthat/cache/model_cache_type_2.Rds
@@ -103,7 +109,7 @@ b5764aaa1a038e690fd1155ad7a8cea3 *tests/testthat/test-listwise_delete.R
 712dff1bc528a0d610fab331df7612df *tests/testthat/test-pairwise.R
 61c20265bc41dffa5ee13efd41de57ff *tests/testthat/test-print.supernova.R
 959891666e5133eb24ca477ec3564725 *tests/testthat/test-supernova.lmerMod.R
-11642b63393c48c4c4a31a5e419ae42c *tests/testthat/test-supernova.r
+b269c522caa3f7000f148f932f065a23 *tests/testthat/test-supernova.r
 0c6f14abf151d1a5449d862c5c256330 *tests/testthat/test-utils-formula.R
 b177d328bfa7198c24baa12b386fa833 *tests/testthat/test-utils.R
 dbc92c329140f35fdc6ac8b68f5c4148 *tests/testthat/test-value_extraction.r
