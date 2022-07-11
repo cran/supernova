@@ -1,7 +1,21 @@
+# supernova 2.5.3
+
+* Remove references to `Fingers` data in examples and tests as it may be removed in the near future
+* Fix issue where using a model fit with an interactive term that has `factor()` in it (e.g. `lm(mpg ~ factor(cyl) * hp, data = mtcars)`) would result in an incorrect *df* (and related values) in the ANOVA table.
+
+
+# supernova 2.5.2
+
+## Breaking (kind of)
+
+* Deprecate `superanova()` as it was just an alias to `supernova()` (which was confusing for some students)
+
+
 # supernova 2.5.1
 
 * Fix issue where models with long calls (i.e. `deparse(model$call)` results in a vector of length greater than 1) would break the functionality of `listwise_delete()`
 * Change print method for `generate_models()` to look clean and comprehensible in Jupyter Notebooks.
+
 
 # supernova 2.5.0
 

@@ -2,18 +2,18 @@
 % Please edit documentation in R/supernova.R
 \name{supernova}
 \alias{supernova}
+\alias{superanova}
 \alias{supernova.lm}
 \alias{supernova.lmerMod}
-\alias{superanova}
 \title{supernova}
 \usage{
 supernova(fit, type = 3, verbose = TRUE)
 
+superanova(fit, type = 3, verbose = TRUE)
+
 \method{supernova}{lm}(fit, type = 3, verbose = TRUE)
 
 \method{supernova}{lmerMod}(fit, type = 3, verbose = FALSE)
-
-superanova(fit, type = 3, verbose = TRUE)
 }
 \arguments{
 \item{fit}{A model fit by \code{\link[=lm]{lm()}} or \code{\link[lme4:lmer]{lme4::lmer()}}}
@@ -44,9 +44,8 @@ Ryan (2017).
 \code{superanova()} is an alias of \code{supernova()}
 }
 \examples{
-supernova(lm(Thumb ~ Weight, data = Fingers))
-format_p <- supernova(lm(Thumb ~ Weight, data = Fingers))
-print(format_p, pcut = 8)
+supernova(lm(mpg ~ disp, data = mtcars))
+supernova(lm(mpg ~ disp, data = mtcars)) \%>\% print(pcut = 8)
 }
 \references{
 Judd, C. M., McClelland, G. H., & Ryan, C. S. (2017). \emph{Data
