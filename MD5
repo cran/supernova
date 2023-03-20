@@ -1,11 +1,11 @@
-887777db2066d39f734cb7609b45f59e *DESCRIPTION
+098b897b70bd133c08a3c98d981c858b *DESCRIPTION
 1d3fc4d537062e1fb204bacc09b69b73 *NAMESPACE
-42a6b50ded116aa17ff76632f1c689bc *NEWS.md
+58ccb151b3a3e59ab65a03fb4150e940 *NEWS.md
 c5d24eabd38e77b6358cd33dee8cfeb2 *R/equation.R
 2efe413373f40ca2af8624d811f4164c *R/generate_models.R
-f2d84dc9bbdbc790db319acf82898677 *R/listwise_delete.R
+0fd8e618cb7cf17720256b856327c808 *R/listwise_delete.R
 84a560b77a8e7bce1d089794f8655742 *R/number.R
-785fd06f459b93d77cd17eeba429d75b *R/pairwise.R
+f0d7a08809cb8d6bc20c2a01cb3adae3 *R/pairwise.R
 a26991231d59513bf1d76c3b8f1eef78 *R/supernova-package.R
 c006ce688a2edcfed0ee4de23c68daae *R/supernova.R
 cdf70f2f580dbc6a735f348d55ff2362 *R/utils-formula.R
@@ -13,7 +13,7 @@ cdf70f2f580dbc6a735f348d55ff2362 *R/utils-formula.R
 de82400f3785fe0fd3fd1ee992a54555 *R/utils.R
 bd444587d1ce6a32552323a5338a7daa *R/variables.R
 fcab43eb28bd8dcc64d71925d74de6d7 *README.md
-3055edcca2ebfd13ec8f275e0d5b48a7 *inst/WORDLIST
+1a2682392b0c0c9bee3f95d6ee32d0d5 *inst/WORDLIST
 ffdab47f1bffc48b74317f692c89d7dc *man/anova_tbl.Rd
 a6b24facf320eb486ec6ebbb17efccd9 *man/cat_line.Rd
 806f62eb532cb7321b8c6f360645bc8d *man/check_pairwise_args.Rd
