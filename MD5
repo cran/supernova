@@ -1,13 +1,13 @@
-ddfc9750165b8eae6b7effa21e645808 *DESCRIPTION
+a569b205ab3443a230eebbe502a1b2d5 *DESCRIPTION
 1d3fc4d537062e1fb204bacc09b69b73 *NAMESPACE
-44801326f2a53c46fc8376620391a9bc *NEWS.md
+eec9f07d0d8e387abbbe28c1139874b4 *NEWS.md
 c5d24eabd38e77b6358cd33dee8cfeb2 *R/equation.R
 2efe413373f40ca2af8624d811f4164c *R/generate_models.R
 0fd8e618cb7cf17720256b856327c808 *R/listwise_delete.R
 84a560b77a8e7bce1d089794f8655742 *R/number.R
 f0d7a08809cb8d6bc20c2a01cb3adae3 *R/pairwise.R
 a26991231d59513bf1d76c3b8f1eef78 *R/supernova-package.R
-badb0e3b01b940dae6cdc0308b443980 *R/supernova.R
+2896ccfd33650990407d93e54632673d *R/supernova.R
 cdf70f2f580dbc6a735f348d55ff2362 *R/utils-formula.R
 65cef5e0674056f6fc07dd2b3ca85c13 *R/utils-pipe.R
 de82400f3785fe0fd3fd1ee992a54555 *R/utils.R
@@ -83,7 +83,7 @@ e39e16b6a5f5f3f1fba15040cdc4576e *tests/testthat/_snaps/pairwise.md
 5721c1ab68d88085ae513eff1050662b *tests/testthat/_snaps/pairwise/t-test-one-variable.svg
 6450e7e277efa4405371c9bff48135ec *tests/testthat/_snaps/pairwise/tukey-one-variable.svg
 e6057fc6e6a6da8cc25c54cfa98cab0f *tests/testthat/_snaps/supernova.lmerMod.md
-812d14e995a14ea6f8e8b5e9a302b4d0 *tests/testthat/_snaps/supernova.md
+87ea07793f9bdf09597d50f7718f49d1 *tests/testthat/_snaps/supernova.md
 67822324d9f97f4cda5c7eecc25ec88e *tests/testthat/data/jmr_ex11.1.Rds
 b7a9757a984f5c851efe4037a7a8af2c *tests/testthat/data/jmr_ex11.17.Rds
 21fe0088c5a2b84fbedda9c5871957b1 *tests/testthat/data/jmr_ex11.22.Rds
@@ -97,8 +97,8 @@ c0d5ceb2329d2072828a22e9ead88592 *tests/testthat/data/jmr_ex11.9.Rds
 18aa26eeee2771ca602b6125b629caab *tests/testthat/test-listwise_delete.R
 7f003e1c1f3fafd2b3e61044167eb6ba *tests/testthat/test-number.R
 82d7dfcf8cfa277f919e678458f8c05f *tests/testthat/test-pairwise.R
-e64d2f7f86cad51d02971fe01da98470 *tests/testthat/test-supernova.lmerMod.R
-3d97a3979826c8e5706578285e0c383f *tests/testthat/test-supernova.r
+2501b92812fab0f0389d82c243fe22c4 *tests/testthat/test-supernova.lmerMod.R
+dc85bc0a09c117ddc2bfb94226708610 *tests/testthat/test-supernova.r
 0c6f14abf151d1a5449d862c5c256330 *tests/testthat/test-utils-formula.R
 b177d328bfa7198c24baa12b386fa833 *tests/testthat/test-utils.R
 ede0bcd4fa70e8cd4777f717137ff2cb *tests/testthat/test-variables.R
